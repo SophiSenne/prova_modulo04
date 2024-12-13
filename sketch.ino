@@ -25,9 +25,9 @@ void modoNoturno(){
 
   // Pisca o LED amarelo
   digitalWrite(led_amarelo, HIGH);
-  delay(2000);
+  delay(1000);
   digitalWrite(led_amarelo, LOW);
-  delay(2000);
+  delay(1000);
 }
 
 void modoDiurno(){
